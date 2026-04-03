@@ -138,8 +138,4 @@
          immediately after the country code is sent to the driver (if the method returns a
          success). -->
     <bool name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
-
-    <!-- Whether to show a confirmation dialog to the user if a third party app targeting below SDK
-         level Q tries to enable Wi-Fi -->
-    <bool name="config_showConfirmationDialogForThirdPartyAppsEnablingWifi">true</bool>
 </resources>

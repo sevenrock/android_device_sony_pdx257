@@ -22,10 +22,6 @@
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool name="config_wifi_background_scan_support">true</bool>
 
-    <!-- Boolean indicating whether or not to revert to default country code when cellular
-         radio is unable to find any MCC information to infer wifi country code from -->
-    <bool name="config_wifi_revert_country_code_on_cellular_loss">true</bool>
-
     <!-- Integer parameters of the wifi to cellular handover feature
          wifi should not stick to bad networks -->
     <!-- Integer threshold for low network score, should be somewhat less than the entry threshhold -->

@@ -366,6 +366,31 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
+# Camera app
+product/etc/asl/jp.co.sony.mc.camera.data.safety_elbe.xml
+product/etc/permissions/privapp-permissions-camera.xml
+product/etc/sysconfig/preinstalled-package-app-metadata-camera3d_elbe.xml
+product/etc/sysconfig/preinstalled-package-app-metadata-camera_elbe.xml
+product/etc/sysconfig/sysconfig_camera_key_Screenshot.xml
+
+product/app/CameraAddonPermission/CameraAddonPermission.apk;PRESIGNED
+product/app/CameraCommonPermission/CameraCommonPermission.apk;PRESIGNED
+
+#product/overlay/Overlay-Camera-BackCamera-SoftSkin-Off-Elbe.apk;PRESIGNED
+#product/overlay/Overlay-Camera-FrontCamera-SoftSkin-Off-Elbe.apk;PRESIGNED
+
+product/priv-app/CameraCommon/CameraCommon.apk;PRESIGNED
+product/priv-app/PanoramaCamera-Elbe/PanoramaCamera-Elbe.apk;PRESIGNED
+product/priv-app/SomcCamera-Elbe/SomcCamera-Elbe.apk;PRESIGNED
+
+system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk
+
+vendor/etc/permissions/android.hardware.camera.concurrent.xml
+vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml
+vendor/etc/permissions/android.hardware.camera.front.xml
+vendor/etc/permissions/android.hardware.camera.full.xml
+vendor/etc/permissions/android.hardware.camera.raw.xml
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc

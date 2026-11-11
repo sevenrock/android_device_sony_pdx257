@@ -22,8 +22,8 @@ PRODUCT_MODEL := XQ-FE54
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="XQ-FE54_EEA-user 17 72.2.A.2.38 072002A002003801752368871 release-keys" \
-    BuildFingerprint=Sony/XQ-FE54_EEA/XQ-FE:17/72.2.A.2.38/072002A002003801752368871:user/release-keys \
+    BuildDesc="XQ-FE54_EEA-user 17 72.2.A.2.58 072002A002005801752368871 release-keys" \
+    BuildFingerprint=Sony/XQ-FE54_EEA/XQ-FE:17/72.2.A.2.58/072002A002005801752368871:user/release-keys \
     DeviceName=XQ-FE \
     DeviceProduct=XQ-FE54_EEA \
     SystemDevice=XQ-FE \
